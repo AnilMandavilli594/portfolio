@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Main from './Main/Main';
 import Info from './Main/Info';
 import Home from './Home/Home';
 import { Provider } from 'react-redux'
@@ -16,10 +15,6 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-  },
-  {
-    path:"main",
-    element:<Main/>
   },
   {
     path:"info",

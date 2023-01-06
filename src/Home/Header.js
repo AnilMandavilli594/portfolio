@@ -16,10 +16,10 @@ function Header() {
                     <text className='font-bold text-3xl'>Portfolio</text>
                 </Link>
                 <div className='w-1/2 flex justify-evenly'>
-                    <button className='font-semibold text-lg' onClick={()=>{changeTab("Projects")}}>Projects</button>
-                    <button className='font-semibold text-lg' onClick={()=>{changeTab("Skills")}}>Skills</button>
-                    <button className='font-semibold text-lg' onClick={()=>{changeTab("Experience")}}>Experience</button>
-                    <button className='font-semibold text-lg' onClick={()=>{changeTab("Contact")}}>Contact</button>
+                    <button className='font-semibold text-lg' style={{color:activeTab==="Projects" ? "red":"black"}} onClick={()=>{changeTab("Projects")}}>Projects</button>
+                    <button className='font-semibold text-lg' style={{color:activeTab==="Skills" ? "red":"black"}} onClick={()=>{changeTab("Skills")}}>Skills</button>
+                    <button className='font-semibold text-lg' style={{color:activeTab==="Experience" ? "red":"black"}} onClick={()=>{changeTab("Experience")}}>Experience</button>
+                    <button className='font-semibold text-lg' style={{color:activeTab==="Contact" ? "red":"black"}} onClick={()=>{changeTab("Contact")}}>Contact</button>
                 </div>
             </div>
         </div>

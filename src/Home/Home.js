@@ -5,6 +5,7 @@ import Projects from '../Projects'
 import Contact from '../Contact'
 import Skills from '../Skills'
 import Experience from '../Experience'
+import { Helmet } from 'react-helmet'
 function Home() {
     const activeTab = useSelector((state)=>state.activeTab)
     const renderTab=()=>{
@@ -23,6 +24,10 @@ function Home() {
     }
     return (
         <div className='h-full'>
+            <Helmet>
+                <title>My portfolio</title>
+                <meta name="description" content="A portfolio website that describe about my Professional Career " />
+            </Helmet>
             <Header />
             <div className='h-full'>
                 {renderTab()}
