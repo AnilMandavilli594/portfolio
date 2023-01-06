@@ -62,19 +62,19 @@ function Index() {
               }
               <div>Or you can reach me to these social media accounts :)</div>
               <div className='flex flex-row h-full justify-center ml-10 p-2 '>
-                <a target="_blank" href="https://www.linkedin.com/in/anil-mandavilli/">
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anil-mandavilli/">
                   <LinkedInIcon sx={{ fontSize: 50 }} color='primary' />
                 </a>
-                <a target="_blank" href='https://www.instagram.com/anilmandavilli/'>
+                <a target="_blank" rel="noreferrer" href='https://www.instagram.com/anilmandavilli/'>
                   <InstagramIcon sx={{ fontSize: 50 }} color='primary' />
                 </a>
-                <a target="_blank" href="https://www.facebook.com/mandavilli.anil.52">
+                <a target="_blank" rel="noreferrer" href="https://www.facebook.com/mandavilli.anil.52">
                   <FacebookIcon sx={{ fontSize: 50 }} color='primary' />
                 </a>
-                <a target="_blank" href='https://twitter.com/anil_mandavilli'>
+                <a target="_blank" rel="noreferrer" href='https://twitter.com/anil_mandavilli'>
                   <TwitterIcon sx={{ fontSize: 50 }} color='primary'/>
                 </a>
-                <a target="_blank" href="https://wa.me/+14632564979">
+                <a target="_blank" rel="noreferrer" href="https://wa.me/+14632564979">
                   <WhatsAppIcon sx={{ fontSize: 50 }} color='primary' />
                 </a>
               </div>
