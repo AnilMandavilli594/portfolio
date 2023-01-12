@@ -43,7 +43,7 @@ function index() {
             <Box icon = "devicon-typescript-plain" text="TypeScript" />
 
             </a>
-            <a target="_blank" rel="noreferrer" href="https://firebase.google.com/docs?gclid=Cj0KCQiAnsqdBhCGARIsAAyjYjSeXUEiQejUDNjqAYch0-rQB0ZUb55rrxbFvI4RRRaLT6F469rJKmEaAmlAEALw_wcB&gclsrc=aw.ds">
+            <a target="_blank" rel="noreferrer"n href="https://firebase.google.com/docs?gclid=Cj0KCQiAnsqdBhCGARIsAAyjYjSeXUEiQejUDNjqAYch0-rQB0ZUb55rrxbFvI4RRRaLT6F469rJKmEaAmlAEALw_wcB&gclsrc=aw.ds">
             <Box icon = "devicon-firebase-plain" text="Firebase" />
 
             </a>

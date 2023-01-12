@@ -9,7 +9,7 @@ function App() {
                   backgroundPosition:"center center"}} className="w-full h-screen">
       <Helmet>
         <title>My portfolio</title>
-        <meta name="description" content="A portfolio website that describe about my Professional Career " />
+        <meta name="description" content="Anil Mandavilli portfolio website that describe about my Professional Career " />
       </Helmet>
       <Main />
     </div>
