@@ -45,7 +45,9 @@ function index() {
             </a>
             <a target="_blank" rel="noreferrer"n href="https://firebase.google.com/docs?gclid=Cj0KCQiAnsqdBhCGARIsAAyjYjSeXUEiQejUDNjqAYch0-rQB0ZUb55rrxbFvI4RRRaLT6F469rJKmEaAmlAEALw_wcB&gclsrc=aw.ds">
             <Box icon = "devicon-firebase-plain" text="Firebase" />
-
+            </a>
+            <a target="_blank" rel="noreferrer"n href="https://graphql.org/learn/">
+            <Box icon = "devicon-graphql-plain" text="Graphql" />
             </a>
           </Grid>
       </div>

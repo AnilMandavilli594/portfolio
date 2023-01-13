@@ -10,7 +10,7 @@ export default function NavBar() {
             dispatch({type:"changeTab",payload:value})
         }
     return (
-        <nav className="w-full bg-white shadow">
+        <nav className="w-full shadow" style={{backgroundColor: activeTab==="Skills" ? "black" : "white",color:activeTab==="Skills" ? "white" : "black"}} >
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -62,15 +62,15 @@ export default function NavBar() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                        <button className='font-semibold text-lg' style={{color:activeTab==="Projects" ? "red":"black"}} onClick={()=>{changeTab("Projects")}}>Projects</button>
-                            <li className="text-gray-600 hover:text-blue-600">
+                        <button className='font-semibold text-lg' style={{color:activeTab==="Projects" ? "red": activeTab==="Skills" ? "white" : "black"}} onClick={()=>{changeTab("Projects")}}>Projects</button>
+                            <li>
                                 <button className='font-semibold text-lg' style={{color:activeTab==="Skills" ? "red":"black"}} onClick={()=>{changeTab("Skills")}}>Skills</button>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
-                                <button className='font-semibold text-lg' style={{color:activeTab==="Experience" ? "red":"black"}} onClick={()=>{changeTab("Experience")}}>Experience</button>
+                            <li>
+                                <button className='font-semibold text-lg' style={{color:activeTab==="Experience" ? "red": activeTab==="Skills" ? "white" : "black"}} onClick={()=>{changeTab("Experience")}}>Experience</button>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
-                                <button className='font-semibold text-lg' style={{color:activeTab==="Contact" ? "red":"black"}} onClick={()=>{changeTab("Contact")}}>Contact</button>
+                            <li>
+                                <button className='font-semibold text-lg' style={{color:activeTab==="Contact" ? "red": activeTab==="Skills" ? "white" : "black"}} onClick={()=>{changeTab("Contact")}}>Contact</button>
                             </li>
                         </ul>
                     </div>
