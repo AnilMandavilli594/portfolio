@@ -13,7 +13,7 @@ export default function NavBar() {
         <nav className="w-full shadow" style={{backgroundColor: activeTab==="Skills" ? "black" : "white",color:activeTab==="Skills" ? "white" : "black"}} >
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
-                    <div className="flex items-center justify-between py-3 md:py-5 md:block">
+                    <div className="flex items-center justify-between py-3 md:py-5 md:block transform transition duration-500 hover:scale-150">
                         <Link to="/">
                             <h2 className="text-2xl font-bold">Home</h2>
                         </Link>
@@ -62,15 +62,15 @@ export default function NavBar() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                        <button className='font-semibold text-lg' style={{color:activeTab==="Projects" ? "red": activeTab==="Skills" ? "white" : "black"}} onClick={()=>{changeTab("Projects")}}>Projects</button>
+                            <button className='font-semibold text-lg transform transition duration-500 hover:scale-110' style={{color:activeTab==="Projects" ? "red": activeTab==="Skills" ? "white" : "black"}} onClick={()=>{changeTab("Projects")}}>Projects</button>
                             <li>
-                                <button className='font-semibold text-lg' style={{color:activeTab==="Skills" ? "red":"black"}} onClick={()=>{changeTab("Skills")}}>Skills</button>
+                                <button className='font-semibold text-lg transform transition duration-500 hover:scale-110' style={{color:activeTab==="Skills" ? "red":"black"}} onClick={()=>{changeTab("Skills")}}>Skills</button>
                             </li>
                             <li>
-                                <button className='font-semibold text-lg' style={{color:activeTab==="Experience" ? "red": activeTab==="Skills" ? "white" : "black"}} onClick={()=>{changeTab("Experience")}}>Experience</button>
+                                <button className='font-semibold text-lg transform transition duration-500 hover:scale-110' style={{color:activeTab==="Experience" ? "red": activeTab==="Skills" ? "white" : "black"}} onClick={()=>{changeTab("Experience")}}>Experience</button>
                             </li>
                             <li>
-                                <button className='font-semibold text-lg' style={{color:activeTab==="Contact" ? "red": activeTab==="Skills" ? "white" : "black"}} onClick={()=>{changeTab("Contact")}}>Contact</button>
+                                <button className='font-semibold text-lg transform transition duration-500 hover:scale-110' style={{color:activeTab==="Contact" ? "red": activeTab==="Skills" ? "white" : "black"}} onClick={()=>{changeTab("Contact")}}>Contact</button>
                             </li>
                         </ul>
                     </div>
